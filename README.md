@@ -162,7 +162,7 @@ ___
 
 *Expected Response:*
 
-- Status Code: `204 NO CONTENT`
+- Status Code: `204 No Content`
 
 *Expected Response if API is unable to locate object:*
 
