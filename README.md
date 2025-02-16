@@ -29,7 +29,7 @@ the purpose of prototyping a proof of concept.The server is designed to host fiv
     - lat - The latitudinal coordinate of the tank
     - long - The Longitudinal coordinate of the tank
 
-##Routes & Expected Behaviour
+## Routes & Expected Behaviour
 
 `GET /tank`
 
