@@ -139,7 +139,17 @@ ___
     "long": "<updated long>",
 }
 
-```     
+``` 
+*Expected Response if API is unable to locate object:*
+
+- Status Code: `404 Not Found`
+
+```json
+{
+	"detail":"Tank not found"
+}
+
+```
 
 ### DELETE `/tank/{id}`
 ___
@@ -147,6 +157,17 @@ ___
 *Expected Response:*
 
 - Status Code: `204 NO CONTENT`
+
+*Expected Response if API is unable to locate object:*
+
+- Status Code: `404 Not Found`
+
+```json
+{
+	"detail":"Tank not found"
+}
+
+```
 
 ## Purpose
 
