@@ -113,6 +113,33 @@ ___
 }
 
 ```
+### PATCH `/tank/{id}`
+___
+
+*Expected Request:*
+
+```json
+{
+    "location": "<new location>", //optional
+    "lat": "<new lat>", //optional
+    "long": "<new long>", //optional
+}
+
+```
+
+*Expected Response:*
+
+- Status Code: `200 OK`
+
+```json
+{
+    "id": "<id>",
+    "location": "<updated location>",
+    "lat": "<updated lat>",
+    "long": "<updated long>",
+}
+
+```     
 
 
 
