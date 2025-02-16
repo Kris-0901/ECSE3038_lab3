@@ -141,9 +141,12 @@ ___
 
 ```     
 
+### DELETE `/tank/{id}`
+___
 
+*Expected Response:*
 
-
+- Status Code: `204 NO CONTENT`
 
 ## Purpose
 
