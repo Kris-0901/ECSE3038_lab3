@@ -77,7 +77,7 @@ the purpose of prototyping a proof of concept.The server is designed to host fiv
 
 ```json
 {
-	detail="Tank not found"
+	"detail":"Tank not found"
 }
 
 ```
