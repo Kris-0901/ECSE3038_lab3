@@ -57,6 +57,36 @@ the purpose of prototyping a proof of concept.The server is designed to host fiv
 
 ```
 
+### GET `/tank/{id}`
+
+*Expected Response:*
+
+```json
+{
+	"id": "0cf996c3-d9ca-4c0b-ab01-52b26c9050ec",
+    "location": "Engineering department",
+    "lat": "18.0051862",
+    "long": "-76.7505108",
+}
+
+```
+
+*Expected Response if API is unable to locate object:*
+
+- Status Code: `404 Not Found`
+
+```json
+{
+	detail="Tank not found"
+}
+
+```
+
+
+
+
+
+
 ## Purpose
 
 This code was written to fulfill the course requirements of 'ECSE3038 Engineering Internet of Things Systems' and to
