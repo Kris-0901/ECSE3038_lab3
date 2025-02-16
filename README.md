@@ -36,13 +36,13 @@ the purpose of prototyping a proof of concept.The server is designed to host fiv
 
 *Expected Response. If an object has not been POSTed yet*
 
-```
+```json
 []
 ```
 
 *Expected Response.  If an object had been previously POSTed*
 
-```
+```json
 
 [
     {
