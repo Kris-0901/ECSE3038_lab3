@@ -51,9 +51,9 @@ the purpose of prototyping a proof of concept.The server is designed to host fiv
         "lat": "18.0051862",
         "long": "-76.7505108",
     },
-		.
-		.
-		.
+    .
+    .
+    .
 ]
 
 ```
