@@ -58,9 +58,10 @@ ___
 
 ```
 
----
+
 
 ### GET `/tank/{id}`
+___
 
 *Expected Response:*
 
