@@ -13,15 +13,15 @@ the purpose of prototyping a proof of concept.The server is designed to host fiv
 
 **RESTful API:**
 
-    GET `/tank`
+-GET `/tank`
 
-    GET `/tank/{id}`
+-GET `/tank/{id}`
 
-    POST `/tank`
+-POST `/tank`
 
-    PATCH `/tank/{id}`
+-PATCH `/tank/{id}`
 
-    DELETE `/tank/{id}`
+-DELETE `/tank/{id}`
 
 **A Tank entity will consist of the following attributes:**
 
