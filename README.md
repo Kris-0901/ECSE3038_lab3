@@ -46,7 +46,7 @@ the purpose of prototyping a proof of concept.The server is designed to host fiv
 
 [
     {
-				"id": "0cf996c3-d9ca-4c0b-ab01-52b26c9050ec",
+		"id": "0cf996c3-d9ca-4c0b-ab01-52b26c9050ec",
         "location": "Engineering department",
         "lat": "18.0051862",
         "long": "-76.7505108",
@@ -65,7 +65,7 @@ the purpose of prototyping a proof of concept.The server is designed to host fiv
 This code was written to fulfill the course requirements of 'ECSE3038 Engineering Internet of Things Systems' and to
 learn the Python programming language.
 
-##Two Truths & A Lie
+## Two Truths & A Lie
 
     - I know kickboxing 
     - I have more than five dogs
