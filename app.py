@@ -1,3 +1,5 @@
+# ID# 620138053
+
 from fastapi import FastAPI, Response, HTTPException
 from fastapi.encoders import jsonable_encoder
 from fastapi.responses import JSONResponse
@@ -36,7 +38,7 @@ async def add_tank(new_tank:Tank):
     data.append(new_tank)
     return JSONResponse(tank_json,status_code=201)
 
-@app.get("/tank{id}")
+@app.get("/tank/{id}")
 async def find_tank(id:UUID):
     for tank in data:
         if tank.id == id:
@@ -58,5 +60,14 @@ async def update_tank(id:UUID,updated_tank:Tank_Update):
             except ValidationError:
                 raise HTTPException(status_code=400, detail="Invalid Request: Tank should consist of a 'location', 'lat' or 'long'")
         raise HTTPException(status_code=400, detail="Tank not found")
+    
+@app.delete("/tank/{id}")
+async def remove_tank(id:UUID):
+    for tank in data:
+        if tank.id == id:
+           data.remove(tank)
+           return  Response(status_code=204)
+    raise HTTPException(status_code=404, detail="Tank not found")
+
 
         
