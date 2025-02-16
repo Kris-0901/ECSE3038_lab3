@@ -24,10 +24,10 @@ the purpose of prototyping a proof of concept.The server is designed to host fiv
 ```
 **A Tank entity will consist of the following attributes:**
 
-    - id (to automatically inserted by web application)
-    - location - The Tank’s location description
-    - lat - The latitudinal coordinate of the tank
-    - long - The Longitudinal coordinate of the tank
+- id (to automatically inserted by web application)
+- location - The Tank’s location description
+- lat - The latitudinal coordinate of the tank
+- long - The Longitudinal coordinate of the tank
 
 ## Routes & Expected Behaviour
 
@@ -67,6 +67,6 @@ learn the Python programming language and RESTful API server.
 
 ## Two Truths & A Lie
 
-    - I know kickboxing 
-    - I have more than five dogs
-    - I only have one pair of sneakers
+- I know kickboxing 
+- I have more than five dogs
+- I only have one pair of sneakers
