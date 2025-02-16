@@ -11,17 +11,18 @@ The server is able to perform the actions of a simple HTTP web server. The serve
 resource such as Create, Read, Update and Delete. This is done with the use of a locally stored list variable for 
 the purpose of prototyping a proof of concept.The server is designed to host five specific HTTP routes. They are:
 
-```RESTful API
-    GET /tank
+**RESTful API:**
 
-    GET /tank/{id}
+    GET `/tank`
 
-    POST /tank
+    GET `/tank/{id}`
 
-    PATCH /tank/{id}
+    POST `/tank`
 
-    DELETE /tank/{id}
-```
+    PATCH `/tank/{id}`
+
+    DELETE `/tank/{id}`
+
 **A Tank entity will consist of the following attributes:**
 
 - id (to automatically inserted by web application)
@@ -31,7 +32,7 @@ the purpose of prototyping a proof of concept.The server is designed to host fiv
 
 ## Routes & Expected Behaviour
 
-`GET /tank`
+GET `/tank`
 
 
 *Expected Response. If an object has not been POSTed yet*
@@ -57,8 +58,6 @@ the purpose of prototyping a proof of concept.The server is designed to host fiv
 ]
 
 ```
-
-
 
 ## Purpose
 
