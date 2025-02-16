@@ -35,4 +35,12 @@ class Tank_Update(BaseModel):
         tank_json= jsonable_encoder(new_tank)
         data.append(new_tank)
         return JSONResponse(tank_json,status_code=201)
+
+    @app.get("/tank{id}")
+    async def find_tank(id:UUID):
+        for tank in data:
+            if tank.id == id:
+                tank_json=jsonable_encoder(tank)
+                return JSONResponse(tank_json,status_code=200)
+            raise HTTPException(status_code=404, detail="Tank not found")
         
