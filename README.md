@@ -86,6 +86,33 @@ ___
 
 ```
 
+POST `/tank`
+___
+
+*Expected Request:*
+
+```json
+{
+    "location": "Physics department",
+    "lat": 18.004741066082236,
+    "long": -76.74875280426826
+}
+
+```
+
+*Expected Response:*
+
+- Status Code: `201 Created`
+
+```json
+{
+    "id": "2ecc8f75-7594-4383-ac59-a24aff085cb3"
+    "location": "Physics department",
+    "lat": "18.004741066082236",
+    "long": "-76.74875280426826"
+}
+
+```
 
 
 
