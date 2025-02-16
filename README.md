@@ -9,19 +9,17 @@ capacity.
 
 The server is able to perform the actions of a simple HTTP web server. The server is able to perform actions on a 
 resource such as Create, Read, Update and Delete. This is done with the use of a locally stored list variable for 
-the purpose of prototyping a proof of concept.The server is designed to host five specific HTTP routes. They are:
+the purpose of prototyping a proof of concept.The server is designed to host five specific HTTP routes(**RESTful API**). They are:
 
-**RESTful API:**
+- GET `/tank`
 
--GET `/tank`
+- GET `/tank/{id}`
 
--GET `/tank/{id}`
+- POST `/tank`
 
--POST `/tank`
+- PATCH `/tank/{id}`
 
--PATCH `/tank/{id}`
-
--DELETE `/tank/{id}`
+- DELETE `/tank/{id}`
 
 **A Tank entity will consist of the following attributes:**
 
