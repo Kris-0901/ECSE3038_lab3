@@ -36,11 +36,15 @@ ___
 
 *Expected Response. If an object has not been POSTed yet*
 
+- Status Code: `200 OK`
+
 ```json
 []
 ```
 
 *Expected Response.  If an object had been previously POSTed*
+
+- Status Code: `200 OK`
 
 ```json
 
@@ -64,6 +68,8 @@ ___
 ___
 
 *Expected Response:*
+
+- Status Code: `200 OK`
 
 ```json
 {
