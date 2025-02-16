@@ -42,7 +42,7 @@ the purpose of prototyping a proof of concept.The server is designed to host fiv
 
 *Expected Response.  If an object had been previously POSTed*
 
-```JSON
+```
 
 [
     {
@@ -63,7 +63,7 @@ the purpose of prototyping a proof of concept.The server is designed to host fiv
 ## Purpose
 
 This code was written to fulfill the course requirements of 'ECSE3038 Engineering Internet of Things Systems' and to
-learn the Python programming language.
+learn the Python programming language and RESTful API server.
 
 ## Two Truths & A Lie
 
